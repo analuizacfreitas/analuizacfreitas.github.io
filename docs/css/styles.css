@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Adicionando 'Roboto' como a fonte principal */
+    font-size: 16px; /* Tamanho de fonte padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #24292e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; /* Aplicando 'Roboto' ao cabeçalho */
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; /* Aplicando 'Roboto' ao título h1 */
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Aplicando 'Roboto' ao título h2 */
+}
+
+p {
+    font-size: 18px;
+    color: #6a737d;
+    font-family: 'Roboto', sans-serif; /* Aplicando 'Roboto' ao parágrafo p */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.about {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* Adicionando a propriedade text-align */
+}
+
+.about h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify; /* Adicionando a propriedade text-align */
+}
+
+.repos {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#repo-list a {
+    color: #0366d6; /* Cor do link */
+    text-decoration: none; /* Removendo sublinhado */
+    transition: color 0.3s ease-in-out; /* Efeito de transição suave na cor do link */
+}
+
+#repo-list a:hover {
+    color: #1e90ff; /* Cor do link ao passar o mouse */
+}
+
+#repo-list a::before {
+    content: attr(data-emoji); /* Obtém o valor do atributo data-emoji como conteúdo */
+    margin-right: 5px; /* Espaçamento à direita entre o emoticon e o texto do link */
+}
+
+#repo-list a::after {
+    /* content: "➡"; Ícone após o link */
+    margin-left: 5px; /* Espaçamento entre o link e o ícone */
+}
+
+.social-icons {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-icons a {
+    color: #0366d6; /* Cor do link */
+    text-decoration: none; /* Removendo sublinhado */
+    font-size: 24px; /* Tamanho do ícone */
+    margin-left: 10px; /* Espaçamento entre os ícones */
+}
+
+/* Definindo cor personalizada para o ícone do LinkedIn */
+.linkedin-icon {
+    color: #0077b5; /* Cor do LinkedIn */
+}
+
+/* Definindo cor personalizada para o ícone do GitHub */
+.github-icon {
+    color: #333; /* Cor do GitHub */
+}
